@@ -1,0 +1,1 @@
+duration_door_open (sec),max_angle (deg),max_opening_speed (deg/s),max_closing_speed (deg/s),time_to_max_angle (sec),time_from_max_angle (sec),avg_opening_speed (deg/s),avg_closing_speed (deg/s),avg_opening_speed_to_10deg (deg/s),avg_closing_speed_from_10deg (deg/s)
