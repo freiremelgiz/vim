@@ -17,3 +17,5 @@ autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
 autocmd BufRead * match ExtraWhitespace /\s\+$/
 autocmd BufWinLeave * call clearmatches()
 
+"Remove bell sound and enable visualbell
+set vb
