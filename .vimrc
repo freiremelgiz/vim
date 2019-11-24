@@ -19,3 +19,6 @@ autocmd BufWinLeave * call clearmatches()
 
 "Remove bell sound and enable visualbell
 set vb
+
+"Associate .launch to .xml for syntax highlight
+autocmd BufNewFile,BufRead *.launch set syntax=xml
