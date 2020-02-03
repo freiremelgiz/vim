@@ -22,3 +22,5 @@ set vb
 
 "Associate .launch to .xml for syntax highlight
 autocmd BufNewFile,BufRead *.launch set syntax=xml
+"Associate .sdf to .xml for syntax highlight
+autocmd BufNewFile,BufRead *.sdf set syntax=xml
