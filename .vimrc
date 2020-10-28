@@ -18,7 +18,8 @@ autocmd BufRead * match ExtraWhitespace /\s\+$/
 autocmd BufWinLeave * call clearmatches()
 
 "Remove bell sound and enable visualbell
-set vb
+"set vb
+set belloff=all
 
 "Associate .launch to .xml for syntax highlight
 autocmd BufNewFile,BufRead *.launch set syntax=xml
