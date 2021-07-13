@@ -25,6 +25,6 @@ set belloff=all
 autocmd BufNewFile,BufRead *.launch set syntax=xml
 "Associate .sdf to .xml for syntax highlight
 autocmd BufNewFile,BufRead *.sdf set syntax=xml
+"Associate .cu to .c for syntax highlight
+autocmd BufNewFile,BufRead *.cu set filetype=c
 
-"Change default viewer in vimtex
-let g:vimtex_view_general_viewer = 'zathura'
